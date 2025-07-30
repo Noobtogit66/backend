@@ -17,10 +17,13 @@ public class EmployeeRepository {
         Employee employee = new Employee("1","Abhi","1@gmail.com");
         Employee employeeOne = new Employee("2","Sagnik","2@gmail.com");
         Employee employeeTwo = new Employee("3","Rahul","3@gmail.com");
+        Employee employeeThree = new Employee("4","Amal","4@gmail.com");
+        Employee employeeFour = new Employee("5","Kamal","5@gmail.com");
         employees.add(employee);
         employees.add(employeeOne);
         employees.add(employeeTwo);
-
+        employees.add(employeeThree);
+        employees.add(employeeFour);
     }
 
     public List<Employee> getEmployees() {
